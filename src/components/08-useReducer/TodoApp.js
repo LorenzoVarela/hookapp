@@ -2,7 +2,7 @@ import React, { useReducer, useEffect } from 'react';
 import { todoReducer } from './todoReducer';
 
 import './style.css';
-import { useForm } from '../../hooks/useForm';
+//import { useForm } from '../../hooks/useForm';
 import { TodoList } from './TodoList';
 import { TodoAdd } from './TodoAdd';
 
@@ -77,10 +77,6 @@ export const TodoApp = () => {
                 />
 
             </div>
-
         </div>
-
-
-
     </div>;
 };
